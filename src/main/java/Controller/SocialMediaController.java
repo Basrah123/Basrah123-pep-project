@@ -120,6 +120,7 @@ public class SocialMediaController {
             } else {
                 ctx.status(400).result(""); 
             }
+            
         } else {
             ctx.status(200).result("");
         }
